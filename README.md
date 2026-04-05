@@ -1,16 +1,66 @@
-# React + Vite
+# 🌍 React REST Countries App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that displays country information using the REST Countries API. It was built as my **first React project**, focusing on core concepts like API fetching, state management, and dynamic UI rendering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://react-world-goo.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 GitHub Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💻 https://github.com/JayedHoshen/react-rest-countries
+
+---
+
+## ✨ Features
+
+- 🌐 Fetch data from REST Countries API
+- 🔍 Search countries by name
+- 📊 Display country details (name, population, region, etc.)
+- ⚛️ Built with reusable React components
+- 🔄 Dynamic rendering using `map()`
+- 📱 Responsive and clean UI
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- REST API
+
+---
+
+## 📚 What I Learned
+
+- How to use `useState`
+- API data fetching in React
+- Component-based architecture
+- Handling user input and events
+- Rendering lists dynamically
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/JayedHoshen/react-rest-countries.git
+
+# Navigate to the project folder
+cd react-rest-countries
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
