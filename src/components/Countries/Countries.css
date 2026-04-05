@@ -1,0 +1,48 @@
+.header {
+  color: white;
+  background-color: gray;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.visited-country,
+.visited-flag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.visited-country span {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.visited-flag img {
+  width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    width: 100%;
+  }
+  .countries {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .visited-flag img {
+    width: 100px;
+  }
+}
